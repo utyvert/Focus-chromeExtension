@@ -7,8 +7,12 @@
     {
     "matches": ["https://www.youtube.com/*"],
     "js": ["./main.js"]
+  }, {
+    "matches": ["https://twitter.com/*"],
+    "js": ["./twitter.js"]
   }
 ]
+  
   }
     
 
