@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2, 
+  "name": "Focus",
+  "version": "1.0",
+  "description": "A Google Chrome extension that keeps you focused.",
+  "content_scripts": [
+    {
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["./main.js"]
+  }
+]
+  }
+    
+
