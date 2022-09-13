@@ -1,0 +1,7 @@
+.beautText {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  border: 10px inset #000000;
+  text-align: center;
+}

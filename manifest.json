@@ -5,14 +5,11 @@
   "description": "A Google Chrome extension that keeps you focused.",
   "content_scripts": [
     {
-    "matches": ["https://www.youtube.com/*"],
-    "js": ["./main.js"]
-  }, {
-    "matches": ["https://twitter.com/*"],
-    "js": ["./twitter.js"]
+    "matches": ["https://www.youtube.com/*", "https://twitter.com/*"],
+    "js": ["jquery.min.js", "./main.js", "./twitter.js"],
+    "css": ["index.css"]
   }
 ]
-  
   }
     
 
